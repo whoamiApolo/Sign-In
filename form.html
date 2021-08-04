@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mystyles.css" />
+    <title>Document</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <form>
+        <h2>SIGN IN</h2>
+        <div class="container-input">
+          <div class="label">
+            <label for="user">Usuário:</label>
+          </div>
+          <input type="text" placeholder="Username" />
+          <i data-feather="user"></i>
+        </div>
+        <div class="container-input">
+          <div class="label">
+            <label for="password">Senha:</label>
+          </div>
+          <input type="password" placeholder="Password" />
+          <i data-feather="lock"></i>
+        </div>
+
+        <div class="infos">
+          <div class="container-checkbox">
+            <input type="checkbox" id="checked" name="cheked" value="cheked" />
+            <label for="remember">Remember Me</label>
+          </div>
+          <a href="http://www.google.com.br">Reset Password</a>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Sign In" />
+        </div>
+        <p>or Sign in with</p>
+
+        <div class="container-sociais">
+          <div class="container-icon">
+            <a href="https://www.facebook.com">
+            <i data-feather="facebook"></i>
+          </a>
+          </div>
+          <div class="container-icon">
+            <a href="https://www.gmail.com">
+            <i data-feather="mail"></i>
+          </a>
+          </div>
+          <div class="container-icon">
+            <a href="http://www.twitter.com/explore">
+              <i data-feather="twitter"></i>
+            </a>
+          </div>
+        </div>
+        <br/>
+        
+        <p class="footer">Do not have an account?  <a href="http://www.google.com.br">Sign up now</a></p>
+      </form>
+    </div>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

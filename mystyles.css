@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    background: #ebebeb;
+}
+
+.container {
+    background: #ffffff;
+    margin: 150px;
+    width: 500px;
+}
+
+form {
+    padding: 20px;
+}
+
+form .container-input {
+    background: #ffffff;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+form .container-input input {
+    width: 81.6%;
+    height: 45px;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 50px;
+    font-size: 1rem;
+    color: #818181
+}
+
+.container form h2 {
+    text-align: center;
+    padding-left: 20%;
+}
+
+form .container-input svg {
+    position: absolute;
+    top: calc(50% - 11.5px);
+    right: 20px;
+    color: #818181
+}
+
+form .container-input .label {
+    width: 75px;
+    position: relative;
+    display: inline-block;
+    margin-right: 3px;
+    text-align: left;
+    color: #818181
+}
+
+/* INFOS */
+
+.infos .container-checkbox {
+    display: inline-block;
+    width: 50%;
+}
+
+a {
+    text-align: center;
+    padding-left: 25px;
+    /* 100px */
+    margin-left: 0px;
+    text-decoration: none;
+    color: red;
+}
+
+.infos {
+    /* Para ajustar as infos */
+    padding: 10px 0px 10px 100px;
+}
+
+.infos .container-checkbox {
+    text-align: center;
+    color: #818181;
+}
+
+/* Sign in */
+
+.container form .submit input {
+    background: red;
+    width: 82%;
+    height: 45px;
+    border-radius: 25px;
+    margin: 15px 0 0 80px;
+    color: white;
+    font-weight: bold;
+}
+
+form p {
+    text-align: center;
+    color: #818181;
+}
+
+form .container-sociais {
+    margin: 0 auto;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+
+form .container-sociais .container-icon {
+    display: inline-block;
+    background: #375c98;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 15px;
+}
+
+/* 2° filho -  */
+form .container-sociais .container-icon:nth-child(2) {
+    background:#C54F33
+}
+
+/* Trabalhando com o 3 filho - Twitter */
+form .container-sociais .container-icon:nth-child(3) {
+    background:#4dadf2;
+}
+
+form .container-sociais .container-icon svg {
+    position: absolute;
+    left: calc(50% - 12px);
+    top: calc(50% - 12px);
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    margin: 20px; 
+}
